@@ -1,5 +1,5 @@
 import unittest
-from A1.A1 import *
+from A1.A import *
 
 class Test_Assignment(unittest.TestCase):
     def test_A1_1(self):
