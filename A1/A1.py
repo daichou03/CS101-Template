@@ -1,5 +1,3 @@
-print_greeting = 1
-
 def print_greeting(name, age, is_birthday):
     result = "Hello " + name + ". "
     new_age = age
