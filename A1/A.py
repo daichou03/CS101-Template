@@ -1,3 +1,6 @@
+# String manipulation
+# str()
+
 def print_greeting(name, age, is_birthday):
     result = "Hello " + name + ". "
     new_age = age

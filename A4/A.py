@@ -1,3 +1,5 @@
+# I/O: read/write file
+
 def write_secret_sentence(text):
     vowels = "aeiouAEIOU"
     secret_text = ""
@@ -6,6 +8,7 @@ def write_secret_sentence(text):
             secret_text += "*"
         else:
             secret_text += t
+    # I/O
     f = open("abc123.txt", "w")
     f.write(secret_text)
     f.close()
